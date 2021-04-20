@@ -8,12 +8,17 @@ $(document).ready(function() {
   });
 
   //slide
-
-  setInterval(slide , 2000);
-  function slide(){
-    $("#slide> div").delay(2000).animate({left : "-1750"},1800,function(){
+  let ii = 0;
+  setInterval(slide , 2900);
+  function slide(){	 
+    $("#slide> div").animate({left : "-1750px"},1800,function(){
       $("#slide> div").append( $("#slide> div> img").eq(0) );
       $("#slide> div").css("left",0);
+	   ii++;	  
+	   if(ii==3){
+		  ii=0;
+	   }
+	   $("#slide span img").eq(ii).addClass("active").siblings().removeClass("active");
     });
   }
 
