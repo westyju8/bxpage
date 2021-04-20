@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/parallax_background.js"></script>
+    <script src="js/livart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/livart.css">
+  </head>
+  <body>
+    <div id="layout">
+
+      <header>
+        <div>
+          <div>
+            <a href="#"><img src="images/livart_logo.png" alt=""></a>
+          </div>
+          <hr style= noshade="noshade">
+          <nav>
+            <a href="#">About</a>
+            <a href="#">New</a>
+            <a href="#">Space</a>
+            <a href="#">Community</a>
+          </nav>
+        </div>
+        <span>
+          <button type="button" name="button">language KO &#8744;</button>
+          <div>
+            <a href="#">EN</a><br>
+            <a href="#">JP</a>
+          </div>
+        </span>
+      </header>
+      <section id="slide">
+        <span>
+          <img src="images/inactive.png" alt="슬라이드표시" class="active">
+          <img src="images/inactive.png" alt="슬라이드표시">
+          <img src="images/inactive.png" alt="슬라이드표시">
+        </span>
+        <div>
+          <img src="images/slide01.png" alt="01">
+          <img src="images/slide02.png" alt="02">
+          <img src="images/slide03.png" alt="03">
+        </div>
+      </section>
+      <section id="about">
+        <span>
+          <img src="images/about_title.png" alt="어바웃 타이틀">
+          <div class="">
+            <p>리바트는 가구 자체이면서 동시에 하나의 오브제처럼 보일 수 있는 <br> 독창적인 디자인의 제품을 꾸준히 선보이고 있습니다.<br>이처럼 차별화된 디자인, 공간과 관련된 색다른 경험은 고객에게 늘 특별한 라이프스타일을 선사합니다.</p>
+          </div>
+        </span>
+        <div>
+          <div class="left">
+            <div>
+              <img src="images/unnamed.png" alt="blank">
+            </div>
+            <div id="onlineshop">
+              <img src="images/onlineshop.png" alt="shop">
+              <p>
+                <b>Online Shop</b>
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <div>
+              <img src="images/ourhistory.png" alt="history">
+              <p>
+                <b>Our History</b>
+              </p>
+            </div>
+            <div>
+              <img src="images/livartbrands.png" alt="brands">
+              <p>
+                <b>Livart's Brands</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="banner">
+          <div>
+            <img src="images/banner.png" alt="배너">
+          </div>
+          <div>
+            <h1><b>LIVART</b>의 제품을 카탈로그로 만나보세요!<br>2021 S/S COLLECTION</h1>
+            <div id="button">
+              <button class="button">신청하기</button>
+              <button onclick="location.href='http://livart.aiibook.net/ecatalog5.php?Cate=0100000000'">E-카탈로그 보기</button>
+            </div>
+          </div>
+      </section>
+      <section id="new">
+        <div id="new_zoom">
+          <div><img src="images/new1.png" alt="1"></div>
+          <div><img src="images/new2.png" alt="2"></div>
+          <div><img src="images/new3.png" alt="3"></div>
+        </div>
+        <section id="new_sec">
+          <div id="new_text">
+            <h3>new</h3>
+            <h2>: Coffice</h2>
+            <b>"매일 카페에서 삽니다"</b>
+            <p>업무, 공부하고 싶은 공간, 카페<br>선호도 높은 카페의 인테리어를 담았습니다.</p>
+          </div>
+          <span></span>
+          <div id="new_img">
+            <div class="parallax-background">
+              <div class="background" style="background-image: url('images/New.png')">
+              </div>
+            </div>
+            <div id="new_img_1">
+              <img src="images/arrow.png" alt="화살표">
+              <p>자세히보기</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="everywhere">
+          <div>
+            <section>
+              <img src="images/every1.png" alt="Kitchen">
+              <div>
+                <h3>Kitchen</h3>
+              </div>
+            </section>
+            <section>
+              <img src="images/every6.png" alt="Study Room">
+              <div>
+                <h3>Study</h3>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <img src="images/every2.png" alt="Living Room">
+              <div>
+                <h3>Living Room</h3>
+              </div>
+            </section>
+            <img src="images/every.png" alt="every">
+            <section>
+              <img src="images/every5.png" alt="Bed Room">
+              <div>
+                <h3>Bed Room</h3>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section>
+              <img src="images/every3.png" alt="Dress Room">
+              <div>
+                <h3>Dress Room</h3>
+              </div>
+            </section>
+            <section>
+              <img src="images/every4.png" alt="Bath Room">
+              <div>
+                <h3>Bath Room</h3>
+              </div>
+            </section>
+          </div>
+      </section>
+      <section id="review">
+        <div>
+          <h1>#LIVART<br>COMMUNITY</h1>
+        </div>
+        <div>
+          <img src="images/review.png" alt="인스타리뷰">
+          <a href="#">View More</a>
+        </div>
+        <div><img src="images/bg.png" alt="bg"></div>
+      </section>
+      <section id="popup">
+        <h3>제목</h3>
+        <img src="#" alt="#">
+      </section>
+    </div>
+  </body>
+</html>
