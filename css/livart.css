@@ -21,7 +21,7 @@ header> div> nav> a:hover     {color: black;}
 
 header> span                  {position: absolute;   padding: 1px 7px 4px 7px; top: 10px; right: 20px; color: #666; border: 1px solid #ddd; border-radius: 10px;}
 header> span> button          {border: none; padding-top: 1px; background: transparent; font-size: 0.7rem;  color: #666; display: block; outline: 0;}
-header> span> div             {background: white; padding: 3px 0 0 50px; display: none;}
+header> span> span            {background: white; padding: 3px 0 0 50px; display: none;}
 header> span a                {font-size: 0.7rem;  color: #666; }
 
 /* NOTE: 슬라이드 */
@@ -40,9 +40,9 @@ header> span a                {font-size: 0.7rem;  color: #666; }
 
 #about                        {display: flex; justify-content: space-around; margin: 250px 150px 150px 0;}
 
-#about> span                  {margin-left: 150px;}
-#about> span> img             {width: 400px;}
-#about> span> div             {width: 570px; margin-top: 20px; margin-left: 50px; font-size: 1.3rem; font-size: 500;}
+#about> section                  {margin-left: 150px;}
+#about> section> img             {width: 400px;}
+#about> section> div             {width: 570px; margin-top: 20px; margin-left: 50px; font-size: 1.3rem; font-weight: 500;}
 #about> div                   {width: 800px; display: flex; margin-top: 50px;}
 #about> div> div              {margin-right: 10pt;}
 #about> div> div> div> img    {display: block; width: 100%; transition: 0.3s;}

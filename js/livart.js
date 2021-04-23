@@ -4,17 +4,17 @@ $(document).ready(function() {
 
   // 언어 설정
   $("header> span button").click(function(){ //language setting
-    $("header> span div").slideToggle();
+    $("header> span span").slideToggle();
   });
 
   //slide
   let ii = 0;
   setInterval(slide , 2900);
-  function slide(){	 
+  function slide(){
     $("#slide> div").animate({left : "-1750px"},1800,function(){
       $("#slide> div").append( $("#slide> div> img").eq(0) );
       $("#slide> div").css("left",0);
-	   ii++;	  
+	   ii++;
 	   if(ii==3){
 		  ii=0;
 	   }
